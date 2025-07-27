@@ -1,7 +1,7 @@
 # Time Series Filtering and Forecasting Project
 
 This project addresses the task of filtering noisy time series data and subsequently forecasting the underlying true signal using an LSTM neural network. Raw data:
-![Raw_data](images/raw_signals.png)
+![Raw_data](images/row_signals.png)
 ## Description
 
 The project workflow consists of the following key steps:
@@ -21,6 +21,7 @@ The project workflow consists of the following key steps:
 7.  **Model Evaluation:** The trained model is evaluated on the test set using common regression metrics: Mean Squared Error (MSE), Mean Absolute Error (MAE), and R-squared (R2).
    Without filter:
    ![Before filtration](images/pred_wf.png)
+
    With filter:
    ![Before filtration](images/pred_f.png)
 
